@@ -15,9 +15,9 @@ public class DataJpaApplication {
 		EmployeeRepository employeeRepository = context.getBean(EmployeeRepository.class);
 
 		Employee e1 = new Employee();
-		e1.setEmpid(2);
-		e1.setEmpName("Kumar");
-		e1.setEmpSalary(155.00);
+		e1.setEmpid(3);
+		e1.setEmpName("Udit");
+		e1.setEmpSalary(500.00);
 		employeeRepository.save(e1);
 	}
 
